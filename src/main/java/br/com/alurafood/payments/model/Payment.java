@@ -25,7 +25,7 @@ public class Payment {
 
     @NotNull
     @Positive
-    private BigDecimal value;
+    private BigDecimal price;
 
     @NotBlank
     @Size(max = 100)
